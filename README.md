@@ -77,3 +77,15 @@ After categorizing all my data with dictionaries through MongoDB i could import 
 ## Conclusion
 
 After looking at our DataFrame of vales as well as the map we can determine that the office that would suit the most people in the company is the office of Metacast located in the heart of Tokyo and in one of its most well known zones; Shibuya. 
+
+## Sources/Links
+
+https://www.icex.es/content/dam/es/icex/oficinas/119/documentos/2022/12/estudio-mercado/EM_Mercado%20del%20videojuego%20en%20Jap%C3%B3n%202022_REV.pdf
+
+https://www.google.es/maps/preview
+
+https://foursquare.com/
+
+https://python-visualization.github.io/folium/latest/reference.html
+
+https://medium.com/datasciencearth/map-visualization-with-folium-d1403771717
