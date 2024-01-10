@@ -1,12 +1,12 @@
-# Project 2: Geospatial-data | Marco Ayora Arsic 
+# Project 3: Geospatial-data | Marco Ayora Arsic 
 
 ## Introduction 
 
-In this project I have taken my role as a data analyst further away. In order too look for a new office for the gaming company I am working for I have compared multiple existing offices of the city of Tokyo one of the biggest cities involved in the business of gaming developement, while taking in account as much as possible all the needs of each of the corporates of the business; such as close starbucks to the office to satisfy the 10 executives.
+In this project I have taken my role as a data analyst further away. In order too look for a new office for the gaming company I am working for I have compared multiple existing offices of the city of Tokyo one of the biggest cities involved in the business of gaming developement, while taking in account as much as possible all the needs of each of the corporates of the business; such as close starbucks to the office to satisfy the executives.
 
 ## Data Source
 
-My offices data have come from the companies database from MongoDB. While all the coordinates and data about all points of interests like bars, Starbucks, educative centers... Were implemented through the API Foursquare.
+My offices data have come from a companies database from MongoDB. While all the coordinates and data about all points of interests like bars, Starbucks, educative centers... Were implemented through the API Foursquare.
 
 ## Methodology
 
@@ -38,11 +38,11 @@ The whole project is divided in different sections:
 
 #### Tests:
 
-In this first-section of the project i have tried a smaller and simpler version on how i will make the project. I tried on working and creating the base of many functions i later used such as the Foursquare requests , creating a map and adding markers to a map.
+In this first-section of the project i have tried a smaller and simpler version on how i will make the project. I tried on working and creating the base of many functions I later used such as the Foursquare requests , creating a map and adding markers to a map.
 
 #### Getting offices from MongoDB:
 
-Here is where the real project starts. I selected all the offices of companies from the companies Database of MongoDB. Then i kept only the offices that were located on tokyo as well as all the data involving the offices like the addreses, zip code etc. Once organised intoo a dataframe we can observe that there is only 3 coordinates offered in the database. To solve this problem, i used a function that reads the addresses and prints them as the coordinates, in order to have a more selected base of options as offices. Then we just have to clean the dataframe in order to just keep the indexes, the column of names, and two columns one for the latitude and the other  for the longitude.
+Here is where the real project starts. I selected all the offices of companies from the companies Database of MongoDB. Then i kept only the offices that were located on tokyo as well as all the data involving the offices like the addreses, zip code etc. Once organised into a dataframe we can observe that there is only 3 coordinates offered in the database. To solve this problem, i used a function that reads the addresses and prints them as the coordinates, in order to have a more selected base of options as offices. Then we just have to clean the dataframe in order to just keep the indexes, the column of names, and two columns one for the latitude and the other  for the longitude.
 
 
 ### Requests of foursquare:
@@ -55,7 +55,7 @@ After my 8 requests of Foursquare were completed and i had my 8 dataframes i onl
 
 ### Add all the collections into a same DataFrame:
 
-Here is where i used the geo near funtion to look for each point of interest in each office and look how many points of interests has each office,  while adding them to the original offices dataframe. After i had done this the 8 times i had my definitive DataFrame but now i had to look for the most valuable office.
+Here is where i used the geo near funtion to look for each point of interest in each office and look how many points of interests has each office,  while adding them to the original offices dataframe. After I had done this the 8 times i had my definitive DataFrame but now i had to look for the most valuable office.
 
 ### Getting the most valuable :
 
@@ -68,15 +68,15 @@ Even though i already knew which was already the most suitable office i wanted t
 
 ## Results
 
-After categorizing all my data with dictionaries through MongoDB i could import and add all the offices and look in a radius of 2km for each office what points of interests could i find(starbucks, bars...). The following image of the interactive map is a random example on how we can see an office, its radius and all the points of interest in a radius of 2km:
+After categorizing all my data with dictionaries through MongoDB I could import and add all the offices and look in a radius of 2km for each office what points of interests could I find(Starbucks, bars ...). The following image of the interactive map is a random example on how we can see an office, its radius and all the points of interest in a radius of 2km:
 
 
-![Alt text](image.png)
+![!\[Alt text\](image.png)](images/image.png)
 
 
 ## Conclusion
 
-After looking at our DataFrame of vales as well as the map we can determine that the office that would suit the most people in the company is the office of Metacast located in the heart of Tokyo and in one of its most well known zones; Shibuya. 
+After looking at our DataFrame of vales as well as the map we can determine that the office that would suit the most people in the company is the office of Metacast located in the heart of Tokyo and in one of its most well-known zones; Shibuya. 
 
 ## Sources/Links
 
